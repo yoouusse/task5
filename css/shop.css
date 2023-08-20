@@ -1,0 +1,145 @@
+/* start Variables *//* start Variables */
+:root {
+    --main-color: #8ff5eb;
+    --secondary-color: #853de5;
+    --section-padding:60px;
+    --section-background:#f1efef;
+}
+/* End Variables */
+
+/* Start Gloabl Rules */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* small */
+@media (min-width:768px){
+    .container{
+        width: 750px;
+    }
+}
+/* medium */
+@media (min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+/* large */
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+/* End Gloabl Rules */
+
+/* start components */
+/* start Header */
+header .top{
+    height: 150px;
+    /* margin: 50PX 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 2px solid #5c5b5b; */
+}
+header .search i{
+    color: #949494;
+    font-size: 18px;
+}
+header .search input{
+    border: none;
+    padding: 15px;
+    font-weight: bold !important;
+}
+header .name{
+    margin-right: 100px;
+    border: 2px solid #5c5b5b;
+    padding: 8px 0px;
+    width: 200px;
+    text-align: center;
+    border-radius: 6px;
+}
+header .name:hover{
+    border: 2px solid #853de5;
+    background-color: #ddd;
+    padding: 12px 4px;
+}
+header .name h2{
+    font-size: 20px;
+    color: #5c5b5b;
+    margin: 0;
+}
+header .name h2:hover{
+    color: #853de5;
+}
+header .icon{
+    width: 100px;
+    color: #5c5b5b;
+}
+header .icon i{
+    margin-right: 10px;
+    color: #5c5b5b;
+}
+header .icon i:hover {
+    color: #853de5;
+    font-size: 18px;
+}
+nav .links{
+    margin: auto ;
+    width: 830px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav .links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 20px;
+}
+nav .links li{
+    margin-left:50px;
+    list-style-type: none;
+    font-weight: bold;
+    color: #5c5b5b;
+}
+nav .links li:hover{
+    color: #853de5;
+    cursor: pointer;
+    border-bottom: 2px solid #853de5;
+}
+.hed{
+    background-color: #ddd;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.hed a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+}
+.hed a :hover{
+    color: #853de5;
+}
+
+/* End Header */
